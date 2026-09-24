@@ -131,12 +131,15 @@
                         <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span
                                 class="color">/Paredes</span> Portugal</h3>
                         <p data-wow-duration="1000ms" class="wow slideInRight animated">7-10 July/Julho </p>
-                        <h4 data-wow-duration="1000ms" class="wow slideInLeft animated"><a target="_blank" href="./posters/Gasshuku2022.pdf"> <div class="button"> Cartaz / Poster </div></a> </h4> 
+                        <h4 data-wow-duration="1000ms" class="wow slideInLeft animated"><a target="_blank"
+                                href="./posters/Gasshuku2022.pdf">
+                                <div class="button"> Cartaz / Poster </div>
+                            </a> </h4>
                         </br>
-                         <a href="#program"><img class="arrowdown" src="./img/arrowdown.svg" alt="" /></a> 
+                        <a href="#program"><img class="arrowdown" src="./img/arrowdown.svg" alt="" /></a>
                     </div>
-                    
-                
+
+
                 </div>
                 <!-- end single slide -->
 
@@ -312,7 +315,8 @@
                             <a href="https://www.facebook.com/gualter.morgado"> <i class="fa fa-facebook fa-lg"></i></a>
                         </li>
                         <li class="text-center">
-                            <a href="https://www.instagram.com/gualtermorgado/"> <i class="fa fa-instagram fa-lg"></i></a>
+                            <a href="https://www.instagram.com/gualtermorgado/"> <i
+                                    class="fa fa-instagram fa-lg"></i></a>
                         </li>
 
                     </ul>
@@ -507,7 +511,7 @@
                             <li><a target="_blank" href="https://www.jundokan-international.org//">Jundokan
                                     Internacional</a></li>
                             <li><a href="politica-privacidade.html">Política de privacidade</a></li>
-                                <li><a href="codigo-conduta.html">Código de conduta</a></li>
+                            <li><a href="codigo-conduta.html">Código de conduta</a></li>
                         </ul>
                     </div>
                 </div>
@@ -581,7 +585,8 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
     <!-- Google Map -->
     <script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places">
+    </script>
     <!-- jquery easing -->
     <script src="js/jquery.easing.min.js"></script>
     <!-- jquery easing -->
@@ -600,7 +605,7 @@
     <script src="js/custom.js"></script>
 
     <script type="text/javascript">
-        $(function () {
+        $(function() {
             /* ========================================================================= */
             /*	Contact Form
                 /* ========================================================================= */
@@ -632,21 +637,22 @@
                         minlength: "thats all? really?",
                     },
                 },
-                submitHandler: function (form) {
+                submitHandler: function(form) {
                     $(form).ajaxSubmit({
                         type: "POST",
                         data: $(form).serialize(),
                         url: "process.php",
-                        success: function () {
+                        success: function() {
                             $("#contact-form :input").attr("disabled", "disabled");
-                            $("#contact-form").fadeTo("slow", 0.15, function () {
-                                $(this).find(":input").attr("disabled", "disabled");
+                            $("#contact-form").fadeTo("slow", 0.15, function() {
+                                $(this).find(":input").attr("disabled",
+                                    "disabled");
                                 $(this).find("label").css("cursor", "default");
                                 $("#success").fadeIn();
                             });
                         },
-                        error: function () {
-                            $("#contact-form").fadeTo("slow", 0.15, function () {
+                        error: function() {
+                            $("#contact-form").fadeTo("slow", 0.15, function() {
                                 $("#error").fadeIn();
                             });
                         },
