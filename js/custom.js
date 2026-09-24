@@ -252,8 +252,8 @@ $(document).ready(function () {
             var baseUrl = $(this).attr("href").split("?")[0];
             $(this).attr("href", baseUrl + "?lang=" + language);
         });
-        $("meta[name='description']").attr("content", language === "en" ? "Find Okinawa Goju-Ryu Karate-Do classes near you. Jundokan International Portugal welcomes children, teenagers and adults in dojos across the country." : "Encontre aulas de Okinawa Goju-Ryu Karaté-Do perto de si. A Jundokan Internacional Portugal acolhe crianças, jovens e adultos em dojos de norte a sul do país.");
-        $("title").text(language === "en" ? "Jundokan International Portugal - Okinawa Goju Ryu Karate Do Association" : "Jundokan International Portugal - Associação Okinawa Goju Ryu Karate Do");
+        $("meta[name='description']").attr("content", language === "en" ? "JIP Portugal - Jundokan International Portugal. Find Okinawa Goju-Ryu Karate-Do classes, dojos, training and events in Portugal for children, teenagers and adults." : "JIP Portugal - Jundokan Internacional Portugal. Encontre aulas de Okinawa Goju-Ryu Karate-Do, dojos, treinos e eventos em Portugal para crianças, jovens e adultos.");
+        $("title").text(language === "en" ? "JIP Portugal | Jundokan Portugal - Okinawa Goju-Ryu Karate-Do" : "JIP Portugal | Jundokan Portugal - Okinawa Goju-Ryu Karate-Do");
         $("#contact-form").data("language", language);
     }
 

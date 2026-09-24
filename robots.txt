@@ -5,3 +5,4 @@ Disallow: /cgi-bin/
 Disallow: /js/
 Disallow: /forms/
 Disallow: /fonts/
+Sitemap: https://jundokan-pt.github.io/page-sitemap.xml
