@@ -647,6 +647,170 @@ top: -8px;
   margin-bottom: 10px;
 }
 
+/* Privacy policy */
+.privacy-page {
+  background-color: #f7f9f8;
+}
+
+.privacy-page #navigation {
+  background-color: #0eb493;
+}
+
+.privacy-nav {
+  padding-top: 17px;
+}
+
+.privacy-nav a {
+  display: inline-block;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.privacy-content {
+  padding: 125px 0 70px;
+}
+
+.privacy-document {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 60px 60px;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(30, 55, 48, 0.08);
+}
+
+.privacy-heading {
+  margin-bottom: 45px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e6e8ea;
+}
+
+.privacy-kicker {
+  margin-bottom: 12px;
+  color: #0eb493;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.privacy-heading h2 {
+  color: #303b43;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.privacy-updated {
+  margin-top: 14px;
+  color: #8a949a;
+  font-size: 12px;
+}
+
+.privacy-document h3 {
+  margin: 38px 0 17px;
+  color: #303b43;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.privacy-document h4 {
+  margin: 26px 0 10px;
+  color: #4d5960;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.privacy-document p,
+.privacy-document li,
+.privacy-document dd {
+  color: #667178;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.privacy-document p {
+  margin-bottom: 15px;
+}
+
+.privacy-document ul {
+  margin: 8px 0 18px 20px;
+  padding-left: 18px;
+  list-style: disc;
+}
+
+.privacy-document li {
+  margin-bottom: 8px;
+}
+
+.privacy-document a {
+  color: #0eb493;
+}
+
+.privacy-document dl {
+  margin: 12px 0 22px;
+}
+
+.privacy-document dt {
+  margin-top: 18px;
+  color: #4d5960;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.privacy-document dd {
+  margin: 4px 0 0;
+}
+
+.privacy-footer {
+  padding: 25px 0;
+  background-color: #303b43;
+  text-align: center;
+}
+
+.privacy-footer a {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .privacy-page .navbar-brand {
+    max-width: 72%;
+  }
+
+  .privacy-page #logo span {
+    display: none;
+  }
+
+  .privacy-page #logo img {
+    margin-right: 0 !important;
+  }
+
+  .privacy-nav {
+    padding-top: 8px;
+  }
+
+  .privacy-nav a {
+    padding: 12px 15px;
+  }
+
+  .privacy-content {
+    padding: 100px 0 35px;
+  }
+
+  .privacy-document {
+    padding: 30px 22px 38px;
+  }
+
+  .privacy-heading h2 {
+    font-size: 26px;
+  }
+}
+
 .contact-form .input-field {
   width: 48%;
   float: left;
