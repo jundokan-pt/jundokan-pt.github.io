@@ -379,9 +379,23 @@ top: -8px;
 
 .calendar-carousel-slide {
   background-color: #062033;
+  overflow: hidden;
+}
+
+.calendar-carousel-slide:before {
+  background-image: linear-gradient(rgba(6, 32, 51, 0.64), rgba(6, 32, 51, 0.64)), url(../img/activity-plan.svg);
   background-position: 94% center;
   background-repeat: no-repeat;
-  background-size: 58% auto !important;
+  background-size: 58% auto;
+  bottom: -18px;
+  content: "";
+  filter: blur(3px);
+  left: -18px;
+  opacity: 0.62;
+  position: absolute;
+  right: -18px;
+  top: -18px;
+  transform: scale(1.02);
 }
 
 .calendar-carousel-slide .carousel-caption {
@@ -390,6 +404,7 @@ top: -8px;
   text-align: left;
   top: 28%;
   width: 36%;
+  z-index: 1;
 }
 
 .calendar-carousel-slide .carousel-caption h2 {
@@ -411,8 +426,13 @@ top: -8px;
 
 @media (max-width: 767px) {
   .calendar-carousel-slide {
+    background-color: #062033;
+  }
+
+  .calendar-carousel-slide:before {
     background-position: center;
-    background-size: cover !important;
+    background-size: cover;
+    opacity: 0.42;
   }
 
   .calendar-carousel-slide .carousel-caption {
