@@ -82,6 +82,7 @@ $(document).ready(function () {
         "Aulas:": "Classes:",
         "Aulas/instalações:": "Classes/facilities:",
         "Aulas/Instalações:": "Classes/facilities:",
+        "Localização:": "Location:",
         "Mensalidades:": "Monthly fees:",
         "Idade Mínima:": "Minimum age:",
         "Observações:": "Notes:",
@@ -120,6 +121,45 @@ $(document).ready(function () {
         "O Brasil Gym cobre a area de Lisboa. A Secção de Karaté tem vários Dojos, promove a prática de karaté, kobudo e defesa pessoal, para crianças e adultos. Promove também seminários, WorkShops, competições e demonstrações.": "Brasil Gym serves the Lisbon area. Its karate section has several dojos and offers karate, kobudo and self-defence for children and adults, as well as seminars, workshops, competitions and demonstrations.",
         "O dojo da Associação Cultural Maloca cobre a area da grande Lisboa. A Secção de Karaté tem vários Dojos, promove a prática de karaté, kobudo e defesa pessoal, para crianças e adultos.": "The Maloca Cultural Association dojo serves the greater Lisbon area. Its karate section has several dojos and offers karate, kobudo and self-defence for children and adults.",
         "O Altis Clube de Paredes é uma associação desportiva e recreativa, que tem várias modalidades desportivas e culturais. A Secção de Karaté tem vários Dojos, promove a prática de karaté, kobudo e defesa pessoal, para crianças e adultos. Promove também seminários, WorkShops, competições e demonstrações..": "Altis Paredes Club is a sports and recreational association with several sports and cultural activities. Its karate section has several dojos and offers karate, kobudo and self-defence for children and adults, as well as seminars, workshops, competitions and demonstrations.",
+        "O Dínamo 80 de Rebordosa é uma associação desportiva e recreativa, que tem várias modalidades desportivas. A Secção de Karaté tem vários Dojos, promove a prática de karaté, kobudoo e defesa pessoal, para crianças e adultos. Promove também seminários, WorkShops, competições e demonstrações.": "Dínamo 80 de Rebordosa is a sports and recreational association with several sports activities. Its karate section has several dojos and promotes the practice of karate, kobudoo and self-defense for children and adults. It also promotes seminars, workshops, competitions and demonstrations.",
+        "Abertas para novos Alunos (Crianças e Adultos)": "Open to new students (children and adults)",
+        "Crianças e adultos - 2.ªs, 5.ªs e 6.ªs Feiras. Entre 19:00 e 21:00.": "Children and adults - Mondays, Thursdays and Fridays, from 19:00 to 21:00.",
+        "Realizar no Dojo": "At the dojo",
+        "Pagamento quota mensal - Efetuado aos Instrutores no Dojo": "Monthly fee paid to the instructors at the dojo",
+        "4 anos de Idade": "4 years old",
+        "Informamos que as inscrições se encontram abertas durante todo o ano.": "Registration is open throughout the year.",
+        "A Academia de Karaté – Évora (AKE) lecciona formação avançada em Karaté para crianças e adultos. Promove também seminários de Defesa Pessoal e WorkShops conjuntos com outras artes marciais. Criou recentemente uma associação para promover a pratica de artes marciais no Alentejo.": "The Evora Karate Academy (AKE) provides advanced karate training for children and adults. It also promotes self-defense seminars and workshops with other martial arts. It recently created an association to promote martial arts in Alentejo.",
+        "Jundokan Internacional de Portugal, Salesianos de Évora, Federação Nacional de Karaté Portugal e Internacional Sport Clube.": "Jundokan International Portugal, Salesianos de Evora, Portuguese National Karate Federation and Internacional Sport Clube.",
+        "Fábio Basílio - 6º Dan": "Fábio Basílio - 6th Dan",
+        "Januário Tenda - 4º Dan e Miguel Gaspar - 4º Dan": "Januário Tenda - 4th Dan and Miguel Gaspar - 4th Dan",
+        "Januário Tenda - 4º Dan, Miguel Gaspar - 4º Dan e João Allas - 1º Dan": "Januário Tenda - 4th Dan, Miguel Gaspar - 4th Dan and João Allas - 1st Dan",
+        "Crianças e adultos - 2.ªs; 4.ªs e 6.ªs Feiras. Entre 18:30 e 21:00 mediante classe etária e graduação": "Children and adults - Mondays, Wednesdays and Fridays, from 18:30 to 21:00, depending on age group and rank",
+        "Pavilhão da Escola dos Salesianos, Évora, Portugal": "Salesianos School Pavilion, Evora, Portugal",
+        "Efetuado nos serviços administrativos da Escola dos Salesianos": "Paid at the Salesianos School administrative offices",
+        "Pagamento quota mensal - Efetuado nos serviços administrativos da Escola dos Salesianos": "Monthly fee paid at the Salesianos School administrative offices",
+        "Associação Desportiva Dínamo Oitenta de Rebordosa": "Dínamo Oitenta de Rebordosa Sports Association",
+        "O Dínamo 80 de Rebordosa é uma associação desportiva e recreativa, que tem várias modalidades desportivas. A Secção de Karaté tem vários Dojos, promove a prática de karaté, kobudoo e defesa pessoal, para crianças e adultos. Promove também seminários, WorkShops, competições e demonstrações.": "Dínamo 80 de Rebordosa is a sports and recreational association with several sports activities. Its karate section has several dojos and promotes karate, kobudoo and self-defense for children and adults. It also promotes seminars, workshops, competitions and demonstrations.",
+        "Responsável do Dojo: António Fernandes 4º Dan e Aldo Matos 4º Dan": "Dojo Managers: António Fernandes 4th Dan and Aldo Matos 4th Dan",
+        "Equipa de Treinadores:": "Coaching Team:",
+        "Rodrigo Bastos 5º Dan, Catarina Morgado 4º Dan, Luís Rocha 4º Dan, Pedro Ribeiro 3º Dan, Beatriz Fernandes 3º Dan, Margarida Fernandes 3º Dan, José Moreira 3º Dan, João Silva 2º Dan, Martim Morgado 1º Dan": "Rodrigo Bastos 5th Dan, Catarina Morgado 4th Dan, Luís Rocha 4th Dan, Pedro Ribeiro 3rd Dan, Beatriz Fernandes 3rd Dan, Margarida Fernandes 3rd Dan, José Moreira 3rd Dan, João Silva 2nd Dan, Martim Morgado 1st Dan",
+        "4 anos de Idade": "4 years old",
+        "7º Dan": "7th Dan",
+        "7º Dan (Nanadan), Associação Jundokan Internacional Portugal.": "7th Dan (Nanadan), Jundokan International Portugal Association.",
+        "Membro do Conselho Técnico da Associação Goju Ryu Karate Do Jundokan Internacional Portugal.": "Member of the Technical Council of the Goju Ryu Karate Do Jundokan International Portugal Association.",
+        "Graduação 6º Dan reconhecida pela Federação Nacional de Karaté Portugal (certificado nº 3814).": "6th Dan rank recognised by the Portuguese National Karate Federation (certificate no. 3814).",
+        "Praticante de Okinawa Kobudo, membro da International Kenshikai Organization.": "Okinawa Kobudo practitioner and member of the International Kenshikai Organization.",
+        "Associado nº 1421 da FNK-P.": "FNK-P member no. 1421.",
+        "Título Profissional de Treinador de Desporto Grau II nº 5415.": "Professional Sports Coach Level II, no. 5415.",
+        "Membro dos Órgãos Sociais da Federação Nacional de Karaté Portugal (2002-2022).": "Member of the governing bodies of the Portuguese National Karate Federation (2002-2022).",
+        "Início da prática de Karate-Do em 1976, com 13 anos.": "Started practising Karate-Do in 1976, at the age of 13.",
+        "7º Dan (Nanadan), Associação Jundokan Internacional Portugal.": "7th Dan (Nanadan), Jundokan International Portugal Association.",
+        "Membro do Conselho Técnico da Associação Goju Ryu Karate Do Jundokan Internacional Portugal.": "Member of the Technical Council of the Goju Ryu Karate Do Jundokan International Portugal Association.",
+        "Graduação 7º Dan reconhecida pela Federação Nacional de Karaté Portugal (certificado nº 4916).": "7th Dan rank recognised by the Portuguese National Karate Federation (certificate no. 4916).",
+        "Kyoshi de Okinawa Kobudo (Shibucho Portugal), International Kenshikai Organization.": "Okinawa Kobudo Kyoshi (Shibucho Portugal), International Kenshikai Organization.",
+        "Associado nº 240 da FNK-P.": "FNK-P member no. 240.",
+        "Título Profissional de Treinador de Desporto Grau III nº 10578.": "Professional Sports Coach Level III, no. 10578.",
+        "Diretor da Federação Nacional de Karaté Portugal (2007-2011).": "Director of the Portuguese National Karate Federation (2007-2011).",
+        "Membro nº 126 da Associação de Amizade Portugal-Japão.": "Member no. 126 of the Portugal-Japan Friendship Association.",
         "Instrutor Chefe e Director Técnico Nacional": "Chief Instructor and National Technical Director",
         "Equipa Técnica Nacional e responsável do Dojo de Lisboa": "National Technical Team and Lisbon Dojo Director",
         "Equipa Técnica Nacional e responsável técnico dos Dojos da região Norte": "National Technical Team and Technical Director for the northern dojos",
@@ -257,12 +297,34 @@ $(document).ready(function () {
         $("#contact-form").data("language", language);
     }
 
-    var preferredLanguage = (navigator.language || navigator.userLanguage || "pt").toLowerCase().indexOf("en") === 0 ? "en" : "pt";
+    function readLanguageCookie() {
+        var match = document.cookie.match(/(?:^|; )jundokan-language=(en|pt)(?:;|$)/);
+        return match ? match[1] : null;
+    }
+
+    function persistLanguage(language) {
+        document.cookie = "jundokan-language=" + language + "; max-age=31536000; path=/; SameSite=Lax";
+    }
+
+    var queryLanguage = new URLSearchParams(window.location.search).get("lang");
+    var preferredLanguage = queryLanguage === "en" || queryLanguage === "pt"
+        ? queryLanguage
+        : readLanguageCookie();
+    if (!preferredLanguage) {
+        try {
+            preferredLanguage = localStorage.getItem("jundokan-language");
+        } catch (error) {
+            preferredLanguage = null;
+        }
+    }
+    preferredLanguage = preferredLanguage || ((navigator.language || navigator.userLanguage || "pt").toLowerCase().indexOf("en") === 0 ? "en" : "pt");
     var activeLanguage = preferredLanguage;
+    persistLanguage(activeLanguage);
     translateText(activeLanguage);
 
     $("#language-toggle").on("click", function () {
         activeLanguage = activeLanguage === "en" ? "pt" : "en";
+        persistLanguage(activeLanguage);
         try {
             localStorage.setItem("jundokan-language", activeLanguage);
         } catch (error) {

@@ -69,10 +69,23 @@
         return (navigator.language || navigator.userLanguage || "pt").toLowerCase().indexOf("en") === 0 ? "en" : "pt";
     }
 
+    function readLanguageCookie() {
+        var match = document.cookie.match(/(?:^|; )jundokan-language=(en|pt)(?:;|$)/);
+        return match ? match[1] : null;
+    }
+
+    function persistLanguage(language) {
+        document.cookie = "jundokan-language=" + language + "; max-age=31536000; path=/; SameSite=Lax";
+    }
+
     function requestedLanguage() {
         var queryLanguage = new URLSearchParams(window.location.search).get("lang");
         if (queryLanguage === "en" || queryLanguage === "pt") {
             return queryLanguage;
+        }
+        var cookieLanguage = readLanguageCookie();
+        if (cookieLanguage) {
+            return cookieLanguage;
         }
         try {
             return localStorage.getItem("jundokan-language") || browserLanguage();
@@ -103,10 +116,12 @@
     }
 
     var activeLanguage = requestedLanguage();
+    persistLanguage(activeLanguage);
     setLanguage(activeLanguage);
 
     $("#legal-language-toggle").on("click", function () {
         activeLanguage = activeLanguage === "en" ? "pt" : "en";
+        persistLanguage(activeLanguage);
         try {
             localStorage.setItem("jundokan-language", activeLanguage);
         } catch (error) {
